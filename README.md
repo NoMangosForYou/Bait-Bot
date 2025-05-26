@@ -33,7 +33,7 @@ From there, you can just mount the .env and profiles.txt file using
 
 
 ```
-docker run -v </path/to/your/.env && profiles.txt/on/host:/app bait_bot:1.1
+docker run -v </path/to/your/.env && profiles.txt/on/host>:/app bait_bot:1.1
 ```
 
 **Build it yourself**
