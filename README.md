@@ -21,20 +21,19 @@ Also, fill out the profiles.txt with any info that can be used to roast your tea
 **How to Run**
 The easiest way to do this is to pull the docker image from my repository use the command 
 
-````
+
 ```
 docker pull nomangoesforyou/bait_bot:1.1
 ````
-```
+
 
 
 From there, you can just mount the .env and profiles.txt file using
 
 
-````
+
 ```
 docker run -v </path/to/your/.env && profiles.txt/on/host:/app bait_bot:1.1
-````
 ```
 
 **Build it yourself**
