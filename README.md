@@ -26,6 +26,8 @@ The easiest way to do this is to pull the docker image from my repository use th
 docker pull nomangoesforyou/bait_bot:1.1
 ````
 ```
+
+
 From there, you can just mount the .env and profiles.txt file using
 
 
@@ -37,6 +39,6 @@ docker run -v </path/to/your/.env && profiles.txt/on/host:/app bait_bot:1.1
 
 **Build it yourself**
 
-Feel free to build it yourself using the provided docker file and pyhton file. 
+Feel free to build it yourself using the provided Dockerfile and python files. 
 
 
