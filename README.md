@@ -3,6 +3,7 @@ Discord Bot that Roasts your friends/ rage baits them. Run it yourself! (Is a GP
 
 
 **Setup**
+
 You're going to need an Open AI API Key as well as a Discord API Key: See references for details:
 
 For Open AI API Key. Give all permissions.
