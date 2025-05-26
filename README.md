@@ -2,7 +2,7 @@
 Discord Bot that Roasts your friends/ rage baits them. Run it yourself! (Is a GPT wrapper)
 
 
-**Setup**
+# **Setup**
 
 You're going to need an Open AI API Key as well as a Discord API Key: See references for details:
 
@@ -19,7 +19,7 @@ Once you have all of that information, put it in the .env file.
 
 Also, fill out the profiles.txt with any info that can be used to roast your teammates
 
-**How to Run**
+# **How to Run**
 The easiest way to do this is to pull the docker image from my repository use the command 
 
 
@@ -37,7 +37,7 @@ From there, you can just mount the .env and profiles.txt file using
 docker run -v </path/to/your/.env && profiles.txt/on/host>:/app bait_bot:1.1
 ```
 
-**Build it yourself**
+# **Build it yourself**
 
 Feel free to build it yourself using the provided Dockerfile and python files. 
 
